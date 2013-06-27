@@ -1,5 +1,0 @@
-2013-05-21 10:26:58 ERROR JsonTransformer:215 - Json parsing error -> C:\Samknows\data\json\20130415000823_208.54.90.165_516b36e7b480e - Copy.json
-2013-05-21 10:26:58 ERROR JsonTransformer:216 - com.google.gson.stream.MalformedJsonException: Unterminated object at line 1 column 27
-2013-05-29 17:05:38 ERROR JsonTransformer:164 - Error while processing -> null
-2013-05-29 17:11:48 ERROR JsonTransformer:215 - Json parsing error -> C:\Samknows\data\json\20130415000823_208.54.90.165_516b36e7b480e - Copy.json
-2013-05-29 17:11:48 ERROR JsonTransformer:216 - com.google.gson.stream.MalformedJsonException: Unterminated object at line 1 column 27
