@@ -7,9 +7,9 @@
 	also make sure all the files need to be converted into csv have to be in the input folder.
 
 ###  **Build the project**
-*	mvn clean package
+*	mvn clean package -> jar file will be created in ~/target/mmba-1.0.jar
 
-### **Command to run the utility program** 
+#### **Command to run the utility program** 
 
 * 	java -jar mmba-1.0.jar \<sourceFolder\> \<destinationFolder\> \<Delimiter\> \<convertToJsonFlag\> \<formatJsonFlag\>
 
