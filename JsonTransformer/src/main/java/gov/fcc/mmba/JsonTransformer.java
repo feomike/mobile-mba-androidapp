@@ -28,8 +28,7 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
 /**
- * @author smoghull
- * Helper class to basically transform json into csv for mmba project   
+ * @author smoghull Helper class to basically transform json into csv for mmba project
  */
 public class JsonTransformer {
 
@@ -209,7 +208,9 @@ public class JsonTransformer {
         extractMetrics(metrics, sb);
         extractTests(tests, sb);
 
-        return sb.toString();
+        String output = sb.toString();
+        int length = output.length();
+        return output.substring(0, length - 1);
     }
 
     private static void extractBasicInformation(JsonObject jObject, StringBuilder sb) {
