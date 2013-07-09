@@ -1,10 +1,9 @@
 ### MMBA Project - JSON To CSV Transformer
- 	This simple tool is build to convert mmba tests which are stored as json files into csv file and
- 	also transformed to json structure which is more useful for further analysis in mongodb
+ 	This simple tool is built to convert raw FCC/SamKnows Speed tests to a single file (eg JSON and CSV).  The inputs for this tool is a source folder containing any number of raw speed test json files.  The results from this tool is a single CSV file ready to be read into any SQL style database AND a single JSON format to be read into a noSQL style database.  This tool runs at a command line using the computer's java installation.   Users must compile (or build) the source code on their installation prior to running with the instructions below (see Build the project).
  
-### **Pre-requisite**
-	The project requires java,maven to be set in the classpath before you could run the utility and 
-	also make sure all the files need to be converted into csv have to be in the input folder.
+### **Pre-requisites**
+- A source folder containing all the input test files to be converted;
+- Java,maven to be set in the classpath prior to running 
 
 ###  **Build the project**
 *	mvn clean package -> jar file will be created in ~/target/mmba-jar-with-dependencies.jar
